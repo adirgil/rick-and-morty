@@ -1,0 +1,18 @@
+.legend {
+  .title:before {
+    content: ".";
+    background-color: #323c50;
+    color: #323c50;
+    width: 3vh;
+    display: inline-block;
+    margin: 0 0.5vh 0 0.5vh;
+  }
+  .best-title:before {
+    content: ".";
+    background-color: #fb667a;
+    color: #fb667a;
+    width: 3vh;
+    display: inline-block;
+    margin: 0 0.5vh 0 2.5vh;
+  }
+}

@@ -1,0 +1,14 @@
+.bar-div {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  label:last-child {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 767px) {
+    .label-text {
+      font-size: 10px;
+      word-spacing: 100px;
+    }
+  }
+}
